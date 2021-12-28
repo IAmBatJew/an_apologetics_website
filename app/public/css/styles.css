@@ -1,3 +1,9 @@
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    font: Garamond;
+}
+
 .navbar {
     width: 100%;
     background-color: black;
@@ -131,16 +137,21 @@
     bottom: 0px;
     left: 0px;
     background-color:black;
-    opacity: .35;
+    opacity: .48;
     height: 400px;
 }
 
 .headerhead h1 {
     position: relative;
+    text-align: center;
 }
 
 .headerhead p{
     position: relative;
     margin: 10px;
     color: white;
+}
+
+#definition {
+    text-align: center;
 }
