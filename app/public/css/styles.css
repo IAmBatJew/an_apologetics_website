@@ -4,6 +4,10 @@ h2 {
     font: Garamond;
 }
 
+body {
+    width:100%;
+}
+
 .navbar {
     width: 100%;
     background-color: black;
@@ -34,7 +38,7 @@ h2 {
     color: white;
     -webkit-text-stroke: .35px black;
     background-image: url('./background_images/homelink.jpg');
-    background-size: 300px 120px;
+    background-size: 100% 100%;
 }
 
 .cosmo a:hover{
@@ -43,7 +47,7 @@ h2 {
     color: white;
     -webkit-text-stroke: .35px black;
     background-image: url('./background_images/cosmolink.gif');
-    background-size: 300px 120px;
+    background-size: 100% 100%;
 }
 
 .intdes a:hover{
@@ -52,7 +56,7 @@ h2 {
     color: white;
     -webkit-text-stroke: .35px black;
     background-image: url('./background_images/idlink.gif');
-    background-size: 300px 120px;
+    background-size: 100% 100%;
 }
 
 .morallaw a:hover{
@@ -61,7 +65,7 @@ h2 {
     color: white;
     -webkit-text-stroke: .35px black;
     background-image: url('./background_images/morallink.png');
-    background-size: 300px 120px;
+    background-size: 100% 100%;
 }
 
 .reliability a:hover{
@@ -70,7 +74,7 @@ h2 {
     color: black;
     -webkit-text-stroke: .35px white;
     background-image: url('./background_images/nttrue.jpg');
-    background-size: 300px 120px;
+    background-size: 100% 100%;
 }
 
 .truth a:hover{
@@ -80,7 +84,7 @@ h2 {
     -webkit-text-stroke: .35px white;
     vertical-align: top;
     background-image: url('./background_images/truthlink.gif');
-    background-size: 300px 120px;
+    background-size: 100% 100%;
 }
 
 /*.rise a {
@@ -97,8 +101,9 @@ h2 {
     color: black;
     -webkit-text-stroke: .35px white;
     background-image: url('./background_images/riselink.gif');
-    background-size: 100%;
+    background-size: 100% 100%;
 }
+
 
 .header {
     position: relative;
@@ -116,6 +121,7 @@ h2 {
     bottom: 0px;
     left: 0px;
     opacity: .7;
+    padding-top: 120px;
 }
 
 .header h1 {
@@ -150,8 +156,57 @@ h2 {
     position: relative;
     margin: 10px;
     color: white;
+    font-size: x-large;
+    text-align: center;
 }
 
-#definition {
+.centered {
     text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items:center;
+ }
+
+.box span {
+    color: maroon;
+    font-size: xx-large;
+}
+
+.pageDivider {
+    width: 100%;
+    height: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    color: navy;
+    font-style: bold;
+}
+
+.content {
+    padding: 16px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#earth {
+    width: 33%;
+    height: auto;
+    float:left;
+}
+
+#science{
+    width: 33%;
+    height: auto;
+    float:right;
 }
