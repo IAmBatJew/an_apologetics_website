@@ -4,6 +4,15 @@ h2 {
     font: Garamond;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h1.cosmo {
+    color: midnightblue;
+    text-align: center;
+}
+
 body {
     width:100%;
 }
@@ -127,7 +136,7 @@ body {
 .header h1 {
     position: relative;
     color: white;
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .headerhead{
@@ -156,7 +165,7 @@ body {
     position: relative;
     margin: 10px;
     color: white;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
 }
 
@@ -179,24 +188,18 @@ body {
     height: 50px;
 }
 
+.ontological {
+    text-align: center;
+    font-size: large;
+    color: midnightblue;
+    font-weight: bold;
+    background-color: snow;
+}
+
 h2 {
     font-size: 50px;
     color: navy;
     font-style: bold;
-}
-
-.content {
-    padding: 16px;
-  }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 60px;
 }
 
 #earth {
@@ -209,4 +212,10 @@ h2 {
     width: 33%;
     height: auto;
     float:right;
+}
+
+#cosmohead{
+    color: snow;
+    font-weight: 300;
+    background-color: black;
 }
