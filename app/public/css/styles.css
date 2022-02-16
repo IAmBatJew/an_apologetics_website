@@ -1,3 +1,9 @@
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    font: Garamond;
+}
+
 h2 {
     padding-top: 10px;
     text-align: center;
@@ -172,6 +178,14 @@ body {
 .centered {
     text-align: center;
 }
+
+.citation {
+    font-size: xx-small;
+    color: navy;
+    text-align: right;
+}
+
+.cosmological {text-align: center;}
 
 .box {
     display: flex;
