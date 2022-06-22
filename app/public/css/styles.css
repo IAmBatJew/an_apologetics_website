@@ -25,6 +25,14 @@ body {
 
 #siteHeader {
     background-color: #3a84ef;
+    width:100%;
+    height: 200px;
+}
+
+#headerPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
