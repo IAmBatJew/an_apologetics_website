@@ -70,6 +70,15 @@
     background-size: 100% 100%;
 }
 
+.cosmo a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: .35px black;
+    background-image: url('./background_images/cosmolink.gif');
+    background-size: 100% 100%;
+}
+
 .intdes a:hover{
     font-weight: bold;
     font-size: 15px;
