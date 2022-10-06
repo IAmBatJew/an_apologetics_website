@@ -1,26 +1,15 @@
-h3 {
-    padding-top: 10px;
-    text-align: center;
-    font: Garamond;
-}
-
-h2 {
-    padding-top: 10px;
-    text-align: center;
-    font: Garamond;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-h1.cosmo {
-    color: midnightblue;
-    text-align: center;
-}
-
 body {
     width:100%;
+}
+
+.box {
+    display: flex;
+    align-items:center;
+ }
+
+.box span {
+    color: maroon;
+    font-size: xx-large;
 }
 
 .centered {
@@ -33,16 +22,48 @@ body {
     text-align: right;
 }
 
-.cosmological {text-align: center;}
+.cosmological {
+    text-align: center;
+}
 
-.box {
-    display: flex;
-    align-items:center;
- }
+#earth {
+    width: 33%;
+    height: auto;
+    float:left;
+}
 
-.box span {
-    color: maroon;
-    font-size: xx-large;
+h1 {
+    font-size: 4rem;
+}
+
+h1.cosmo {
+    color: midnightblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: navy;
+
+    font-style: bold;
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    font: Garamond;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    font: Garamond;
+}
+
+.key_list{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
 }
 
 .pageDivider {
@@ -58,26 +79,9 @@ body {
     background-color: snow;
 }
 
-h2 {
-    font-size: 50px;
-    color: navy;
-    font-style: bold;
-}
-
-#earth {
-    width: 33%;
-    height: auto;
-    float:left;
-}
-
 #science{
     width: 33%;
     height: auto;
     float:right;
 }
 
-#cosmohead{
-    color: snow;
-    font-weight: 300;
-    background-color: black;
-}

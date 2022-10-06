@@ -1,3 +1,5 @@
+
+
 #siteHeader {
     background-color: #3a84ef;
     width:100%;
@@ -9,7 +11,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+#cosmohead{
+    color: snow;
+    font-weight: 300;
+    background-color: black;
+}
 .header {
     position: relative;
     width:100%;
