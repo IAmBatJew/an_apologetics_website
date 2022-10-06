@@ -1,0 +1,135 @@
+.navbar {
+    width: 100%;
+    background-color: #3a84ef;
+    display: inline-block;
+    overflow:hidden;
+}
+
+.subnav {
+    width: 100%;
+    background-color: #3a84ef;
+    display: inline-block;
+}
+
+.subnavbtn {
+    background-color: #3a84ef;
+    display: inline-block;
+}
+
+/* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+.navbar ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.navbar a {
+    float: top;
+    color: white;
+    font-size: medium;
+    width: 14%;
+    height: auto;
+    float: left;
+    text-align: center;
+    line-height: 120px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.home a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: .35px black;
+    background-image: url('./background_images/homelink.jpg');
+    background-size: 100% 100%;
+}
+
+.cosmo:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: .35px black;
+    background-image: url('./background_images/cosmolink.gif');
+    background-size: 100% 100%;
+}
+
+.cosmo a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: .35px black;
+    background-image: url('./background_images/cosmolink.gif');
+    background-size: 100% 100%;
+}
+
+.intdes a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: .35px black;
+    background-image: url('./background_images/idlink.gif');
+    background-size: 100% 100%;
+}
+
+.morallaw a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    -webkit-text-stroke: .35px black;
+    background-image: url('./background_images/morallink.png');
+    background-size: 100% 100%;
+}
+
+.reliability a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    -webkit-text-stroke: .35px white;
+    background-image: url('./background_images/nttrue.jpg');
+    background-size: 100% 100%;
+}
+
+.truth a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    -webkit-text-stroke: .35px white;
+    vertical-align: top;
+    background-image: url('./background_images/truthlink.gif');
+    background-size: 100% 100%;
+}
+
+/*.rise a {
+    transition: width 100ms;
+    transition-timing-function: linear;
+}*/
+
+.rise a:hover{
+  /*  z-index: 1001;
+    width: 35%;
+    position:absolute; */
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    -webkit-text-stroke: .35px white;
+    background-image: url('./background_images/riselink.gif');
+    background-size: 100% 100%;
+}
+
