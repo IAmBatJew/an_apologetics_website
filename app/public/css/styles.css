@@ -60,10 +60,15 @@ h3 {
     font: Garamond;
 }
 
+.hold_list {
+    display:flex;
+    justify-content: center;
+}
+
 .key_list{
     font-weight: bolder;
     font-size: larger;
-    text-align: center;
+    text-align: left;
 }
 
 .pageDivider {
