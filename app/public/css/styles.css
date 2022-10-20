@@ -26,12 +26,6 @@ body {
     text-align: center;
 }
 
-#earth {
-    width: 33%;
-    height: auto;
-    float:left;
-}
-
 h1 {
     font-size: 4rem;
 }
@@ -44,11 +38,7 @@ h1.cosmo {
 h2 {
     font-size: 50px;
     color: navy;
-
     font-style: bold;
-}
-
-h2 {
     padding-top: 10px;
     text-align: center;
     font: Garamond;
@@ -71,11 +61,6 @@ h3 {
     text-align: left;
 }
 
-.pageDivider {
-    width: 100%;
-    height: 50px;
-}
-
 .ontological {
     text-align: center;
     font-size: large;
@@ -84,9 +69,79 @@ h3 {
     background-color: snow;
 }
 
+.pageDivider {
+    width: 100%;
+    height: 50px;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#earth {
+    width: 100%;
+    height: auto;
+    float:left;
+}
+
+#Existence {
+    background-color: blueviolet;
+    height: 100%;
+    align-items: center;
+}
+
+#NTEvid {
+    background-color: crimson;
+    height: 100%;
+    align-items: center;
+}
+
+#OurMission {
+    background-color: darkblue;
+    height:100%;
+    align-items: center;
+}
+
 #science{
-    width: 33%;
+    width: 100%;
     height: auto;
     float:right;
 }
 
+#WhoFor {
+background-color: green;
+height: 100%;
+align-items: center;
+}
+
+#WhoFor span {
+    color: white;
+    align-content: center;
+    width: 75%;
+}
+
+#WhoFor h2 {
+    color: white;
+}
+
+#WhyImport {
+background-color: yellow;
+height: 100%;
+align-items: center;
+}
+
+#WhyImport h2{
+    color: white;
+}
+
+#WhyImport span {
+    color: white;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 75%;
+}
