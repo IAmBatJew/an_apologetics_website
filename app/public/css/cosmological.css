@@ -1,0 +1,28 @@
+h1.cosmological {
+    color: midnightblue;
+    text-align: center;
+}
+
+#cosmohead{
+    color: snow;
+    font-weight: 300;
+    background-color: black;
+}
+
+#introduction {
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+}
+
+.ontological {
+    height: 27%;
+    font-size: xx-large;
+}
+
+p {
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}

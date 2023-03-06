@@ -22,17 +22,8 @@ body {
     text-align: right;
 }
 
-.cosmological {
-    text-align: center;
-}
-
 h1 {
     font-size: 4rem;
-}
-
-h1.cosmo {
-    color: midnightblue;
-    text-align: center;
 }
 
 h2 {
@@ -67,6 +58,7 @@ h3 {
     color: midnightblue;
     font-weight: bold;
     background-color: snow;
+    vertical-align: middle;
 }
 
 .pageDivider {
@@ -80,6 +72,7 @@ section {
     align-items: center;
     align-content: center;
     align-self: center;
+    vertical-align: middle;
 }
 
 #earth {
