@@ -8,7 +8,6 @@ body {
  }
 
 .box span {
-    color: maroon;
     font-size: xx-large;
 }
 
@@ -75,6 +74,18 @@ section {
     vertical-align: middle;
 }
 
+#bible{
+    width: 100%;
+    height: auto;
+    float:right;
+}
+
+#doesheexist {
+    width: auto;
+    height: 250%;
+    float:left;
+}
+
 #earth {
     width: 100%;
     height: auto;
@@ -82,21 +93,57 @@ section {
 }
 
 #Existence {
-    background-color: blueviolet;
+    background-color: lightgrey;
     height: 100%;
     align-items: center;
+}
+
+#Existence span {
+    color: navy;
+    align-content: center;
+    width: 75%;
+}
+
+#Existence h2 {
+    color: navy;
+}
+
+#mission{
+    width: auto;
+    height: 500%;
+    float:right;
 }
 
 #NTEvid {
-    background-color: crimson;
+    background-color: white;
     height: 100%;
     align-items: center;
 }
 
+#NTEvid span {
+    color: navy;
+    align-content: center;
+    width: 75%;
+}
+
+#NTEvid h2 {
+    color: navy;
+}
+
 #OurMission {
-    background-color: darkblue;
+    background-color: white;
     height:100%;
     align-items: center;
+}
+
+#OurMission span {
+    color: navy;
+    align-content: center;
+    width: 75%;
+}
+
+#OurMission h2 {
+    color: navy;
 }
 
 #science{
@@ -106,33 +153,33 @@ section {
 }
 
 #WhoFor {
-background-color: green;
+background-color: lightgrey;
 height: 100%;
 align-items: center;
 }
 
 #WhoFor span {
-    color: white;
+    color: navy;
     align-content: center;
     width: 75%;
 }
 
 #WhoFor h2 {
-    color: white;
+    color: navy;
 }
 
 #WhyImport {
-background-color: yellow;
+    background-color: white;
 height: 100%;
 align-items: center;
 }
 
 #WhyImport h2{
-    color: white;
+    color: navy;
 }
 
 #WhyImport span {
-    color: white;
+    color: navy;
     align-items: center;
     align-content: center;
     align-self: center;
