@@ -1,8 +1,12 @@
-
-#siteHeader {
+.screenTop {
+    position:fixed;
     background-color: #3a84ef;
     width:100%;
-    height: 18%;
+    justify-content:center;
+}
+
+#siteHeader {
+    height: 17%;
 }
 
 #headerPic{
@@ -13,8 +17,7 @@
 }
 .navbar {
     width: 100%;
-    height: 12%;
-    background-color: #3a84ef;
+    height: 15%;
     display: inline-block;
     overflow:hidden;
 }
