@@ -81,22 +81,67 @@ section {
     float:left;
 }
 
+#exist {
+    width: 100%;
+    height: auto;
+    float:left;
+}
+
 #Existence {
-    background-color: blueviolet;
+    background-color: whitesmoke;
+    padding-top: 15%;
     height: 100%;
     align-items: center;
+}
+
+#Existence h2 {
+    color: black;
+}
+
+#Existence span {
+    color: black;
+    align-content:center;
+}
+
+#nt {
+    width: 80%;
+    height: auto;
+    float:right;
+    padding-right: 2%;
+    padding-bottom: 5%;
 }
 
 #NTEvid {
-    background-color: crimson;
+    background-color: rgb(73, 188, 211);
+    height: 100%;
+    padding-top: 15%;
+    padding-left: 1.5%;
+    align-items: center;
+}
+
+#NTEvid span {
+    color: white;
+    align-content:center;
+}
+
+#NTEvid h2{
+    color: white;
+}
+
+#OurMission {
+    background-color: rgb(73, 188, 211);
+    padding-top: 15%;
     height: 100%;
     align-items: center;
 }
 
-#OurMission {
-    background-color: darkblue;
-    height:100%;
-    align-items: center;
+#OurMission span {
+    color: white;
+    align-content:center;
+}
+
+#OurMission h2{
+    color: white;
 }
 
 #science{
@@ -106,23 +151,24 @@ section {
 }
 
 #WhoFor {
-background-color: green;
+background-color: whitesmoke;
 height: 100%;
+padding-top: 15%;
 align-items: center;
 }
 
 #WhoFor span {
-    color: white;
+    color: black;
     align-content: center;
-    width: 75%;
 }
 
 #WhoFor h2 {
-    color: white;
+    color: black;
 }
 
 #WhyImport {
-background-color: yellow;
+background-color: rgb(73, 188, 211);
+padding-top: 15%;
 height: 100%;
 align-items: center;
 }
@@ -136,5 +182,4 @@ align-items: center;
     align-items: center;
     align-content: center;
     align-self: center;
-    width: 75%;
 }
