@@ -5,6 +5,7 @@ body {
 .box {
     display: flex;
     align-items:center;
+    align-content: center;
  }
 
 .box span {
@@ -82,8 +83,8 @@ section {
 }
 
 #exist {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 65vh;
     float:left;
 }
 
@@ -103,9 +104,13 @@ section {
     align-content:center;
 }
 
+#mission {
+    padding-right: 32px;
+}
+
 #nt {
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 65vh;
     float:right;
     padding-right: 2%;
     padding-bottom: 5%;
@@ -130,8 +135,8 @@ section {
 
 #OurMission {
     background-color: rgb(73, 188, 211);
-    padding-top: 15%;
     height: 100%;
+    padding-top: 15%;
     align-items: center;
 }
 
@@ -160,6 +165,7 @@ align-items: center;
 #WhoFor span {
     color: black;
     align-content: center;
+    border: 3px black solid;
 }
 
 #WhoFor h2 {
