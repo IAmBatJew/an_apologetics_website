@@ -5,6 +5,16 @@
     align-content: center;
 }
 
+.intro h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro p {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    border: white 2px solid;
+    padding: 12px;
+}
+
 .intro::before{
     content:"";
     background-image: url('background_images/homeheadbckrnd.jpg');
@@ -51,8 +61,9 @@
 .introduction p{
     top: 40%;
     position: relative;
-    margin: 10px;
+    margin: 25px;
     color: white;
-    font-size: large;
-    text-align: center
+    font-size: 2vh;
+    text-align: center;
+    overflow-y: auto;
 }

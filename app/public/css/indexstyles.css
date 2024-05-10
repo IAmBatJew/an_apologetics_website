@@ -8,20 +8,25 @@ h2 {
 
 span {
     font-family: Garamond, 'Times New Roman', Times, serif;
+    min-width: 50vw;
+    max-height: 60vh;
+    overflow-y: auto;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border: 3px black solid;
 }
 
 .box {
     display: flex;
     align-items:center;
     justify-content: space-around;
+    align-content: space-around;
     width: 100vw;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
  }
 
 .box span {
-    color: maroon;
     font-size: xx-large;
+    padding: 12px;
 }
 
 .centered {
@@ -84,6 +89,7 @@ section {
     align-content: center;
     align-self: center;
     vertical-align: middle;
+    padding-top: 12vh;
 }
 
 #earth {
@@ -100,10 +106,50 @@ section {
 
 #exists {
     flex-wrap: wrap;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+#ev {
+    width: auto;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box img {
+    height: 27vh;
+    max-width: auto;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.image-container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
 }
 
 #Existence {
-    background-color: whitesmoke;
+    background-color: azure;
     padding-top: 15%;
     height: 100%;
     align-items: center;
@@ -131,7 +177,7 @@ section {
 }
 
 #NTEvid {
-    background-color: rgb(73, 188, 211);
+    background-color: floralwhite;
     height: 100%;
     padding-top: 15%;
     padding-left: 1.5%;
@@ -139,30 +185,30 @@ section {
 }
 
 #NTEvid span {
-    color: white;
+    color: black;
     align-content:center;
 }
 
 #NTEvid h2{
-    color: white;
+    color: black;
 }
 
 #OurMission {
-    background-color: rgb(73, 188, 211);
+    background-color:floralwhite;
     height: 100%;
     padding-top: 15%;
     align-items: center;
 }
 
 #OurMission span {
-    color: white;
+    color: black;
     align-content:center;
     border: 3px black solid;
     margin-right: 9px;
 }
 
 #OurMission h2{
-    color: white;
+    color: black;
 }
 
 #science{
@@ -172,7 +218,7 @@ section {
 }
 
 #WhoFor {
-background-color: whitesmoke;
+background-color: azure;
 height: 100%;
 padding-top: 15%;
 align-items: center;
@@ -189,18 +235,18 @@ align-items: center;
 }
 
 #WhyImport {
-background-color: rgb(73, 188, 211);
+background-color: floralwhite;
 padding-top: 15%;
 height: 100%;
 align-items: center;
 }
 
 #WhyImport h2{
-    color: white;
+    color: black;
 }
 
 #WhyImport span {
-    color: white;
+    color: black;
     align-items: center;
     align-content: center;
     align-self: center;
