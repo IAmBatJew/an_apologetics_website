@@ -7,7 +7,7 @@
 }
 
 #siteHeader {
-    height: 16%;
+    height: 16vh;
 }
 
 #headerPic{
@@ -17,7 +17,7 @@
     height: 100%;
 }
 .navbar {
-    height: 12%;
+    height: 12vh;
     display: inline-block;
     overflow:hidden;
 }

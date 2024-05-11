@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+.banded {
+    background-color:#173550 ;
+    color: #FBF3E0;
+    opacity: 1;
+    font-weight: bold;
+    width: 100%;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax__layer--back {
+    transform: translateZ(-1px) scale(2);
+}
+
+.background {
+    background-image: url('background_images/protein.png'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 200vh; /* Adjust height as needed */
+}
+
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    color: #173550;
+    position: relative;
+    z-index: 1;
+}
+
+.full {
+    height: 100vh;
+}
+
+section {
+    height: 95vh;
+    margin-bottom: 10vh;
+    padding-top: 24vh;
+    opacity: .8;
+    display: grid;
+    place-items: center;
+}
+
+.black {
+    background-color: #D4E8FA;
+}
+
+.white {
+    background-color:#FBF3E0;
+}
