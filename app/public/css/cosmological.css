@@ -28,13 +28,13 @@ p {
 }
 
 section {
-    padding-top: 29vh;
+    padding-top: 27vh;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
 
 .close {
-    padding-top: 28vh;
+    padding-top: 27vh;
     padding-left: 0;
     padding-right: 0;
 }
@@ -90,7 +90,7 @@ footer {
 .growth{
     position: flex;
     height: 100%;
-    top: 50%;
+    top: 33%;
 }
 
 .growth::before{
@@ -101,12 +101,12 @@ footer {
     bottom: 0px;
     left: 0px;
     background-color:black;
-    opacity: .65;
+    opacity: .85;
     height: 100%;
 }
 
 .growth h2 {
-    top: 36%;
+    top: 25%;
     position: relative;
     text-align: center;
     color: white;
@@ -116,11 +116,11 @@ footer {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
-    top: 40%;
+    top: 27%;
     position: relative;
     margin: 25px;
     color: white;
-    font-size: 2vh;
+    font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -148,7 +148,7 @@ footer {
 .radiation{
     position: flex;
     height: 100%;
-    top: 50%;
+    top: 25%;
 }
 
 .radiation::before{
@@ -164,7 +164,7 @@ footer {
 }
 
 .radiation h2 {
-    top: 36%;
+    top: 25%;
     position: relative;
     text-align: center;
     color: white;
@@ -174,11 +174,11 @@ footer {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
-    top: 40%;
+    top: 27%;
     position: relative;
     margin: 25px;
     color: white;
-    font-size: 2vh;
+    font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -206,7 +206,7 @@ footer {
 .entropy{
     position: flex;
     height: 100%;
-    top: 50%;
+    top: 25%;
 }
 
 .entropy::before{
@@ -222,7 +222,7 @@ footer {
 }
 
 .entropy h2 {
-    top: 36%;
+    top: 25%;
     position: relative;
     text-align: center;
     color: white;
@@ -232,11 +232,11 @@ footer {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
-    top: 40%;
+    top: 27%;
     position: relative;
     margin: 25px;
     color: white;
-    font-size: 2vh;
+       font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -264,7 +264,7 @@ footer {
 .relativity{
     position: flex;
     height: 100%;
-    top: 50%;
+    top: 25%;
 }
 
 .relativity::before{
@@ -280,7 +280,7 @@ footer {
 }
 
 .relativity h2 {
-    top: 36%;
+    top: 25%;
     position: relative;
     text-align: center;
     color: white;
@@ -290,11 +290,11 @@ footer {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
-    top: 40%;
+    top: 27%;
     position: relative;
     margin: 25px;
     color: white;
-    font-size: 2vh;
+       font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;

@@ -2,12 +2,17 @@ body {
     width:100%;
 }
 
+p {
+    font-size: clamp(40px, 20vh, 36px);
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 span {
     font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: clamp(16px, 9vh, 36px);
     min-width: 50vw;
     max-height: 60vh;
     overflow-y: auto;
@@ -25,12 +30,17 @@ span {
  }
 
 .box span {
-    font-size: xx-large;
+    font-size: clamp(24px, 9vh, 36px);
     padding: 12px;
 }
 
 .centered {
     text-align: center;
+}
+
+.centered-box {
+    display: flex;
+    align-items: center;
 }
 
 .citation {
@@ -40,11 +50,12 @@ span {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: clamp(24px, 9vh, 68px);
+    height: 9vh;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: clamp(24px, 7vh, 68px);
     color: navy;
     font-style: bold;
     padding-top: 10px;
@@ -64,13 +75,13 @@ h3 {
 
 .key_list{
     font-weight: bolder;
-    font-size: larger;
+    font-size: clamp(24px, 9vh, 68px);
     text-align: left;
 }
 
 .ontological {
     text-align: center;
-    font-size: large;
+    font-size: clamp(24px, 9vh, 68px);
     color: midnightblue;
     font-weight: bold;
     background-color: snow;
@@ -85,6 +96,7 @@ h3 {
 section {
     height: 100%;
     width: 100%;
+    font-size: clamp(24px, 5vh, 68px);
     align-items: center;
     align-content: center;
     align-self: center;
@@ -93,9 +105,9 @@ section {
 }
 
 #earth {
-    width: 100%;
     height: auto;
-    float:left;
+    max-height: 50vh;
+    float:right;
 }
 
 #exist {
@@ -119,7 +131,8 @@ section {
 
 .box img {
     height: 27vh;
-    max-width: auto;
+    min-width: 20vw;
+    max-width: 20vw;
     flex-wrap: wrap;
 }
 
@@ -142,6 +155,8 @@ section {
     align-items: center;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease; /* Smooth transition effect */
+    font-size: clamp(12px, 3vh, 60px);
+    text-align: center;
 }
 
 .image-container:hover .overlay {
@@ -150,8 +165,8 @@ section {
 
 #Existence {
     background-color: azure;
-    padding-top: 15%;
-    height: 100%;
+    padding-top: 17vh;
+    height: 83vh;
     align-items: center;
 }
 
@@ -161,6 +176,7 @@ section {
 
 #Existence span {
     color: black;
+    font-size: clamp(24px, 4vh, 68px);
     align-content: center;
 }
 
@@ -178,14 +194,15 @@ section {
 
 #NTEvid {
     background-color: floralwhite;
-    height: 100%;
-    padding-top: 15%;
+    height: 83vh;
+    padding-top: 17vh;
     padding-left: 1.5%;
     align-items: center;
 }
 
 #NTEvid span {
     color: black;
+    font-size: clamp(24px, 4vh, 68px);
     align-content:center;
 }
 
@@ -195,8 +212,8 @@ section {
 
 #OurMission {
     background-color:floralwhite;
-    height: 100%;
-    padding-top: 15%;
+    height: 83vh;
+    padding-top: 17vh;
     align-items: center;
 }
 
@@ -204,6 +221,7 @@ section {
     color: black;
     align-content:center;
     border: 3px black solid;
+    font-size: clamp(24px, 3.75vh, 68px);
     margin-right: 9px;
 }
 
@@ -213,7 +231,7 @@ section {
 
 #OurMission h3 {
     color:#8B4513;
-    font-size: 5vh;
+    font-size: clamp(30px, 5vh, 68px);
     max-width: 100vw;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
@@ -222,22 +240,30 @@ section {
 }
 
 #science{
-    width: 100%;
+    width: 83vh;
     height: auto;
     float:right;
 }
 
+
+#whatis {
+    font-size: clamp(16px, 3vh, 68px);
+}
+
 #WhoFor {
 background-color: azure;
-height: 100%;
-padding-top: 15%;
+height: 83vh;
+padding-top: 17vh;
 align-items: center;
 }
 
+
 #WhoFor span {
     color: black;
+    font-size: clamp(24px, 4vh, 68px);
+    align-items: center;
     align-content: center;
-    border: 3px black solid;
+    align-self: center;
 }
 
 #WhoFor h2 {
@@ -246,8 +272,8 @@ align-items: center;
 
 #WhyImport {
 background-color: floralwhite;
-padding-top: 15%;
-height: 100%;
+padding-top: 17vh;
+height: 83vh;
 align-items: center;
 }
 
@@ -257,6 +283,7 @@ align-items: center;
 
 #WhyImport span {
     color: black;
+    font-size: clamp(24px, 4vh, 68px);
     align-items: center;
     align-content: center;
     align-self: center;
