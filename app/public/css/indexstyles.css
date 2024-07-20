@@ -163,6 +163,11 @@ section {
     opacity: 1; /* Show overlay on hover */
 }
 
+#end {
+    height: 90vh;
+    align-self: start;
+}
+
 #Existence {
     background-color: azure;
     padding-top: 17vh;
