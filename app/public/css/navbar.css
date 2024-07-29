@@ -1,32 +1,59 @@
+.anchor {
+    display: block;
+    position: relative;
+    top: -30vh;
+    visibility: hidden;
+}
 
-#siteHeader {
+.screenTop {
+    position:fixed;
     background-color: #3a84ef;
     width:100%;
-    height: 18%;
+    justify-content:center;
+    z-index: 100;
+}
+
+.header-stuff {
+    height: 27vh;
+}
+
+#siteHeader {
+    height: 16vh;
 }
 
 #headerPic{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
 }
+
+.headers {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+
+}
+
 .navbar {
-    width: 100%;
-    height: 12%;
-    background-color: #3a84ef;
+    height: 12vh;
     display: inline-block;
     overflow:hidden;
 }
 
+.patreon {
+    float: right;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 15px;
+    height: 7vh;
+}
+
 .subnav {
     width: 100%;
-    background-color: #3a84ef;
     display: inline-block;
 }
 
 .subnavbtn {
-    background-color: #3a84ef;
     display: inline-block;
 }
 
@@ -147,4 +174,3 @@
     background-image: url('./background_images/riselink.gif');
     background-size: 100% 100%;
 }
-

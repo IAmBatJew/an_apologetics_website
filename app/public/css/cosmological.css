@@ -1,23 +1,26 @@
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(28px, 5vh, 86px);
+}
+
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:beige;
+    font-size: clamp(28px, 4vh, 86px);
+
+}
+
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:beige;
+    font-size: clamp(28px, 3.5vh, 86px);
+
+}
+
 h1.cosmological {
-    color: midnightblue;
-    text-align: center;
-}
-
-#cosmohead{
-    color: snow;
-    font-weight: 300;
-    background-color: black;
-}
-
-#introduction {
-    vertical-align: middle;
-    align-items: center;
-    align-content: center;
-}
-
-.ontological {
-    height: 27%;
-    font-size: xx-large;
+    background-color:beige;
+    color: black;
+    font-weight: bold;
 }
 
 p {
@@ -25,4 +28,281 @@ p {
     align-items: center;
     align-content: center;
     align-self: center;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    overflow-y: auto;
+    font-size: clamp(16px, 3vh, 48px);
+}
+
+section {
+    padding-top: 27vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.close {
+    padding-top: 27vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.intro {
+    background-color: black;
+    color:aliceblue;
+    align-content: center;
+    text-align: center;
+}
+
+.ontological {
+    height: 27%;
+    font-size: clamp(28px, 3vh, 86px);
+}
+
+footer {
+    font-size: xx-small;
+}
+
+#cosmohead{
+    color:beige;
+    font-weight: 300;
+    font-size: clamp(28px, 3.5vh, 86px);
+    background-color: black;
+}
+
+#introduction {
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.hubble {
+    position: relative;
+    width:auto;
+    align-items: center;
+    align-content: center;
+}
+
+.hubble::before{
+    content:"";
+    background-image: url('background_images/hubble.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .8;
+}
+
+.growth{
+    position: flex;
+    height: 100%;
+    top: 33%;
+}
+
+.growth::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:black;
+    opacity: .85;
+    height: 100%;
+}
+
+.growth h2 {
+    top: 25%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.growth p{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    border: white 2px solid;
+    padding: 12px;
+    top: 27%;
+    position: relative;
+    margin: 25px;
+    color: white;
+    font-size: clamp(16px, 3vh, 36px);
+    text-align: center;
+    overflow-y: auto;
+    max-height: 35vh;
+}
+
+.radationimage {
+    position: relative;
+    width:auto;
+    align-items: center;
+    align-content: center;
+}
+
+.radationimage::before{
+    content:"";
+    background-image: url('background_images/radiation.jpeg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .8;
+}
+
+.radiation{
+    position: flex;
+    height: 100%;
+    top: 25%;
+}
+
+.radiation::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:black;
+    opacity: .65;
+    height: 100%;
+}
+
+.radiation h2 {
+    top: 25%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.radiation p{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    border: white 2px solid;
+    padding: 12px;
+    top: 27%;
+    position: relative;
+    margin: 25px;
+    color: white;
+    font-size: clamp(16px, 3vh, 36px);
+    text-align: center;
+    overflow-y: auto;
+    max-height: 35vh;
+}
+
+.entropyimage {
+    position: relative;
+    width:auto;
+    align-items: center;
+    align-content: center;
+}
+
+.entropyimage::before{
+    content:"";
+    background-image: url('background_images/entropy.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .8;
+}
+
+.entropy{
+    position: flex;
+    height: 100%;
+    top: 25%;
+}
+
+.entropy::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:black;
+    opacity: .65;
+    height: 100%;
+}
+
+.entropy h2 {
+    top: 25%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.entropy p{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    border: white 2px solid;
+    padding: 12px;
+    top: 27%;
+    position: relative;
+    margin: 25px;
+    color: white;
+       font-size: clamp(16px, 3vh, 36px);
+    text-align: center;
+    overflow-y: auto;
+    max-height: 35vh;
+}
+
+.relativeimage {
+    position: relative;
+    width:auto;
+    align-items: center;
+    align-content: center;
+}
+
+.relativeimage::before{
+    content:"";
+    background-image: url('background_images/blackhole.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .8;
+}
+
+.relativity{
+    position: flex;
+    height: 100%;
+    top: 25%;
+}
+
+.relativity::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:black;
+    opacity: .65;
+    height: 100%;
+}
+
+.relativity h2 {
+    top: 25%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.relativity p{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    border: white 2px solid;
+    padding: 12px;
+    top: 27%;
+    position: relative;
+    margin: 25px;
+    color: white;
+       font-size: clamp(16px, 3vh, 36px);
+    text-align: center;
+    overflow-y: auto;
+    max-height: 35vh;
 }

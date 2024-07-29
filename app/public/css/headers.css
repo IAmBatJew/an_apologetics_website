@@ -1,12 +1,21 @@
-.header {
+.intro {
     position: relative;
     width:auto;
-    height: 70%;
     align-items: center;
     align-content: center;
 }
 
-.header::before{
+.intro h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro p {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    border: white 2px solid;
+    padding: 12px;
+}
+
+.intro::before{
     content:"";
     background-image: url('background_images/homeheadbckrnd.jpg');
     background-size: 100% 100%;
@@ -19,19 +28,19 @@
     padding-top: 120px;
 }
 
-.header h1 {
+.intro h1 {
     position: relative;
     color: white;
     font-size: 4rem;
 }
 
-.headerhead{
+.introduction{
     position: flex;
-    height: 70%;
+    height: 100%;
     top: 50%;
 }
 
-.headerhead::before{
+.introduction::before{
     content: "";
     position: absolute;
     top: 0px;
@@ -43,17 +52,18 @@
     height: 100%;
 }
 
-.headerhead h1 {
+.introduction h1 {
     top: 36%;
     position: relative;
     text-align: center;
 }
 
-.headerhead p{
+.introduction p{
     top: 40%;
     position: relative;
-    margin: 10px;
+    margin: 25px;
     color: white;
-    font-size: large;
-    text-align: center
+    font-size: 2vh;
+    text-align: center;
+    overflow-y: auto;
 }
