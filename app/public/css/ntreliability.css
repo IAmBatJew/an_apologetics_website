@@ -41,7 +41,7 @@ span {
     font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
-    max-height: 63vh;
+    max-height: 49vh;
 }
 
 .centered-container {
@@ -51,11 +51,19 @@ span {
     padding: 2vh;
 }
 
+#end {
+    height: 90vh;
+    align-self: start;
+}
 
 .close {
     padding-top: 27vh;
     padding-left: 0;
     padding-right: 0;
+}
+
+.anchor {
+    scroll-behavior: smooth;
 }
 
 .brown {
