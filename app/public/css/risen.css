@@ -5,21 +5,21 @@ h1 {
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: beige;
+    color: #C9FFEB;
     font-size: clamp(28px, 4vh, 86px);
 
 }
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: beige;
+    color: #C9FFEB;
     font-size: clamp(28px, 3.5vh, 86px);
 
 }
 
 h1.cosmological {
-    background-color: beige;
-    color: black;
+    background-color: #C9FFEB;
+    color: #942A12;
     font-weight: bold;
 }
 
@@ -47,26 +47,16 @@ section {
 }
 
 .intro {
-    background-color: black;
-    color: aliceblue;
+    background-color: #942A12;
+    color: #C9FFEB;
     align-content: center;
     text-align: center;
 }
 
-.ontological {
-    height: 27%;
-    font-size: clamp(28px, 3vh, 86px);
-}
-
-footer {
-    font-size: xx-small;
-}
-
-#cosmohead {
-    color: beige;
+#acronym {
+    color: #C9FFEB;
     font-weight: 300;
     font-size: clamp(28px, 3.5vh, 86px);
-    background-color: black;
 }
 
 #introduction {
@@ -118,8 +108,8 @@ cite {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: black;
-    opacity: .85;
+    background-color: #942A12;
+    opacity: .65;
     height: 100%;
 }
 
@@ -127,7 +117,7 @@ cite {
     top: 25%;
     position: relative;
     text-align: center;
-    color: white;
+    color: #C9FFEB;
 }
 
 .anchor {
@@ -145,7 +135,7 @@ cite {
     top: 27%;
     position: relative;
     margin: 25px;
-    color: white;
+    color: #C9FFEB;
     font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
@@ -184,7 +174,7 @@ cite {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: black;
+    background-color: #942A12;
     opacity: .65;
     height: 100%;
 }
@@ -193,7 +183,7 @@ cite {
     top: 25%;
     position: relative;
     text-align: center;
-    color: white;
+    color: #C9FFEB;
 }
 
 .interactions p {
@@ -203,7 +193,7 @@ cite {
     top: 27%;
     position: relative;
     margin: 25px;
-    color: white;
+    color: #C9FFEB;
     font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
@@ -226,7 +216,7 @@ cite {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: .8;
+    opacity: .65;
 }
 
 .conversions {
@@ -242,7 +232,7 @@ cite {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: black;
+    background-color: #942A12;
     opacity: .65;
     height: 100%;
 }
@@ -251,7 +241,7 @@ cite {
     top: 25%;
     position: relative;
     text-align: center;
-    color: white;
+    color: #C9FFEB;
 }
 
 .conversions p {
@@ -261,7 +251,7 @@ cite {
     top: 27%;
     position: relative;
     margin: 25px;
-    color: white;
+    color: #C9FFEB;
     font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
@@ -300,7 +290,7 @@ cite {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: black;
+    background-color: #942A12;
     opacity: .65;
     height: 100%;
 }
@@ -309,7 +299,7 @@ cite {
     top: 25%;
     position: relative;
     text-align: center;
-    color: white;
+    color: #C9FFEB;
 }
 
 .death p {
@@ -319,7 +309,7 @@ cite {
     top: 27%;
     position: relative;
     margin: 25px;
-    color: white;
+    color: #C9FFEB;
     font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
