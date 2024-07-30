@@ -59,11 +59,12 @@
 }
 
 .introduction p{
-    top: 40%;
+    top: 25vh;
     position: relative;
     margin: 25px;
     color: white;
     font-size: 2vh;
     text-align: center;
     overflow-y: auto;
+    max-height: 45vh;
 }

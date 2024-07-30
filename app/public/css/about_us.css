@@ -49,6 +49,7 @@ section {
 }
 
 #end {
-    height: 90vh;
+    padding-top: 20vh;
+    height: 85vh;
     align-self: start;
 }
