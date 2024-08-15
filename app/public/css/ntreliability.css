@@ -42,6 +42,7 @@ span {
     text-align: center;
     overflow-y: auto;
     max-height: 49vh;
+    max-width: 60vw;
 }
 
 .centered-container {
