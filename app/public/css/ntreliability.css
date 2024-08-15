@@ -30,7 +30,7 @@ section {
     padding-right: 1.5vw;
 }
 
-span {
+p {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
@@ -42,7 +42,7 @@ span {
     text-align: center;
     overflow-y: auto;
     max-height: 49vh;
-    max-width: 60vw;
+    max-width: 58vw;
 }
 
 .centered-container {
@@ -103,6 +103,7 @@ footer {
 .box img {
     max-width: 40vw;
     max-height: 50vh;
+    padding-right: 1vw;
 }
 
 .top-box {
