@@ -75,7 +75,7 @@
     margin: 0;
   }
 
-.navbar ul {
+.navbar-menu {
     margin: 0px;
     list-style-type: none;
 }
@@ -173,4 +173,31 @@
     -webkit-text-stroke: .35px white;
     background-image: url('./background_images/riselink.gif');
     background-size: 100% 100%;
+}
+
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Styles for mobile devices (e.g., phones) */
+@media (max-width: 480px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .navbar-menu.show {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
 }

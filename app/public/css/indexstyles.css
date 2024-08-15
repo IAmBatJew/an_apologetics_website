@@ -311,3 +311,8 @@ align-items: center;
     align-content: center;
     align-self: center;
 }
+
+/* Styles for mobile devices (e.g., phones) */
+@media (max-width: 480px) {
+
+}
