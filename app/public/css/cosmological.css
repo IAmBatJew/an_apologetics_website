@@ -3,26 +3,26 @@ body {
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: clamp(28px, 5vh, 86px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(18px, 5vh, 86px);
 }
 
 h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:beige;
-    font-size: clamp(28px, 4vh, 86px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: clamp(15px, 4vh, 86px);
 
 }
 
 h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:beige;
-    font-size: clamp(28px, 3.5vh, 86px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: clamp(12px, 3.5vh, 86px);
 
 }
 
 h1.cosmological {
-    background-color:beige;
+    background-color: beige;
     color: black;
     font-weight: bold;
 }
@@ -34,7 +34,7 @@ p {
     align-self: center;
     font-family: Garamond, 'Times New Roman', Times, serif;
     overflow-y: auto;
-    font-size: clamp(16px, 3vh, 48px);
+    font-size: clamp(9px, 3vh, 48px);
 }
 
 section {
@@ -55,24 +55,24 @@ section {
 
 .intro {
     background-color: black;
-    color:aliceblue;
+    color: aliceblue;
     align-content: center;
     text-align: center;
 }
 
 .ontological {
     height: 27%;
-    font-size: clamp(28px, 3vh, 86px);
+    font-size: clamp(15px, 3vh, 86px);
 }
 
 footer {
     font-size: xx-small;
 }
 
-#cosmohead{
-    color:beige;
+#cosmohead {
+    color: beige;
     font-weight: 300;
-    font-size: clamp(28px, 3.5vh, 86px);
+    font-size: clamp(18px, 3.5vh, 86px);
     background-color: black;
 }
 
@@ -85,13 +85,13 @@ footer {
 
 .hubble {
     position: relative;
-    width:auto;
+    width: auto;
     align-items: center;
     align-content: center;
 }
 
-.hubble::before{
-    content:"";
+.hubble::before {
+    content: "";
     background-image: url('background_images/hubble.png');
     background-size: 100% 100%;
     position: absolute;
@@ -102,20 +102,20 @@ footer {
     opacity: .8;
 }
 
-.growth{
+.growth {
     position: flex;
     height: 100%;
     top: 33%;
 }
 
-.growth::before{
+.growth::before {
     content: "";
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color:black;
+    background-color: black;
     opacity: .85;
     height: 100%;
 }
@@ -127,7 +127,7 @@ footer {
     color: white;
 }
 
-.growth p{
+.growth p {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
@@ -135,7 +135,7 @@ footer {
     position: relative;
     margin: 25px;
     color: white;
-    font-size: clamp(16px, 3vh, 36px);
+    font-size: clamp(9px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -143,13 +143,13 @@ footer {
 
 .radationimage {
     position: relative;
-    width:auto;
+    width: auto;
     align-items: center;
     align-content: center;
 }
 
-.radationimage::before{
-    content:"";
+.radationimage::before {
+    content: "";
     background-image: url('background_images/radiation.jpeg');
     background-size: 100% 100%;
     position: absolute;
@@ -160,20 +160,20 @@ footer {
     opacity: .8;
 }
 
-.radiation{
+.radiation {
     position: flex;
     height: 100%;
     top: 25%;
 }
 
-.radiation::before{
+.radiation::before {
     content: "";
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color:black;
+    background-color: black;
     opacity: .65;
     height: 100%;
 }
@@ -185,7 +185,7 @@ footer {
     color: white;
 }
 
-.radiation p{
+.radiation p {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
@@ -193,7 +193,7 @@ footer {
     position: relative;
     margin: 25px;
     color: white;
-    font-size: clamp(16px, 3vh, 36px);
+    font-size: clamp(9px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -201,13 +201,13 @@ footer {
 
 .entropyimage {
     position: relative;
-    width:auto;
+    width: auto;
     align-items: center;
     align-content: center;
 }
 
-.entropyimage::before{
-    content:"";
+.entropyimage::before {
+    content: "";
     background-image: url('background_images/entropy.jpg');
     background-size: 100% 100%;
     position: absolute;
@@ -218,20 +218,20 @@ footer {
     opacity: .8;
 }
 
-.entropy{
+.entropy {
     position: flex;
     height: 100%;
     top: 25%;
 }
 
-.entropy::before{
+.entropy::before {
     content: "";
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color:black;
+    background-color: black;
     opacity: .65;
     height: 100%;
 }
@@ -243,7 +243,7 @@ footer {
     color: white;
 }
 
-.entropy p{
+.entropy p {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
@@ -251,7 +251,7 @@ footer {
     position: relative;
     margin: 25px;
     color: white;
-       font-size: clamp(16px, 3vh, 36px);
+    font-size: clamp(9px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -259,13 +259,13 @@ footer {
 
 .relativeimage {
     position: relative;
-    width:auto;
+    width: auto;
     align-items: center;
     align-content: center;
 }
 
-.relativeimage::before{
-    content:"";
+.relativeimage::before {
+    content: "";
     background-image: url('background_images/blackhole.png');
     background-size: 100% 100%;
     position: absolute;
@@ -276,20 +276,20 @@ footer {
     opacity: .8;
 }
 
-.relativity{
+.relativity {
     position: flex;
     height: 100%;
     top: 25%;
 }
 
-.relativity::before{
+.relativity::before {
     content: "";
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color:black;
+    background-color: black;
     opacity: .65;
     height: 100%;
 }
@@ -301,7 +301,7 @@ footer {
     color: white;
 }
 
-.relativity p{
+.relativity p {
     font-family: Garamond, 'Times New Roman', Times, serif;
     border: white 2px solid;
     padding: 12px;
@@ -309,7 +309,7 @@ footer {
     position: relative;
     margin: 25px;
     color: white;
-       font-size: clamp(16px, 3vh, 36px);
+    font-size: clamp(9px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
     max-height: 35vh;
@@ -358,7 +358,7 @@ footer {
     /* Initially hidden */
     transition: opacity 0.3s ease;
     /* Smooth transition effect */
-    font-size: clamp(12px, 3vh, 60px);
+    font-size: clamp(9px, 3vh, 60px);
 }
 
 .overlay-link {
@@ -370,4 +370,76 @@ footer {
 #end {
     height: 90vh;
     align-self: start;
+}
+
+@media (max-width: 480px) {
+    .cosmological {
+        font-size: clamp(7px, 5vh, 60px);
+    }
+
+
+    .growth h2 {
+        top: 5vh;
+    }
+
+    .growth p {
+        top: 5vh;
+        min-height: 55vh;
+        max-height: 55vh;
+        font-size: clamp(24px, 1.5vh, 50px);
+    }
+
+    .radiation h2 {
+        top: 5vh;
+    }
+
+    .radiation p {
+        top: 5vh;
+        min-height: 55vh;
+        max-height: 55vh;
+        font-size: clamp(24px, 1.5vh, 50px);
+    }
+
+    .entropy h2 {
+        top: 5vh;
+    }
+
+    .entropy p {
+        top: 5vh;
+        min-height: 55vh;
+        max-height: 55vh;
+        font-size: clamp(24px, 1.5vh, 50px);
+    }
+
+    .relativity h2 {
+        top: 5vh;
+    }
+
+    .relativity p {
+        top: 5vh;
+        min-height: 55vh;
+        max-height: 55vh;
+        font-size: clamp(24px, 1.5vh, 50px);
+    }
+
+    .ontological {
+        font-size: clamp(7px, 2.5vh, 50px);
+    }
+
+    .overlay {
+        font-size: clamp(7px, 2vh, 60px);
+    }
+
+    #cosmohead {
+        font-size: clamp(7px, 3vh, 50px);
+    }
+
+    #introduction {
+        height: 73vh;
+        overflow-y: auto;
+    }
+
+    #id h2 {
+        padding-bottom: 5vh;
+    }
 }

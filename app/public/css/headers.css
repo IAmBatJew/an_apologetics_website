@@ -68,3 +68,15 @@
     overflow-y: auto;
     max-height: 45vh;
 }
+
+@media (max-width: 480px) {
+
+    .introduction h1 {
+        font-size: clamp(12px, 7vh, 68px);
+    }
+
+    .introduction p {
+        top: 28vh;
+    }
+
+}

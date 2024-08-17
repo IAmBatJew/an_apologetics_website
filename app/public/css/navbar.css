@@ -186,18 +186,36 @@
 
 /* Styles for mobile devices (e.g., phones) */
 @media (max-width: 480px) {
+    .navbar {
+        justify-content: center;
+        align-content: center;
+        display: block;
+        overflow-y: scroll;
+    }
     .navbar-menu {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #333;
+        background-color: #3a84ef;
+        position: fixed;
+        height: 100vh;
     }
 
     .navbar-menu.show {
         display: flex;
     }
 
+    .navbar-menu a {
+        width: 90%;
+    }
+
+    .navbar-menu li {
+        margin: 0;
+        text-align: center;
+    }
+
     .navbar-toggle {
         display: block;
+        margin: 0 auto;
     }
 }
