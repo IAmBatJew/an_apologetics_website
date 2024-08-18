@@ -1,32 +1,59 @@
+.anchor {
+    display: block;
+    position: relative;
+    top: -30vh;
+    visibility: hidden;
+}
 
-#siteHeader {
+.screenTop {
+    position:fixed;
     background-color: #3a84ef;
     width:100%;
-    height: 18%;
+    justify-content:center;
+    z-index: 100;
+}
+
+.header-stuff {
+    height: 27vh;
+}
+
+#siteHeader {
+    height: 16vh;
 }
 
 #headerPic{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
 }
+
+.headers {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+
+}
+
 .navbar {
-    width: 100%;
-    height: 12%;
-    background-color: #3a84ef;
+    height: 12vh;
     display: inline-block;
     overflow:hidden;
 }
 
+.patreon {
+    float: right;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 15px;
+    height: 7vh;
+}
+
 .subnav {
     width: 100%;
-    background-color: #3a84ef;
     display: inline-block;
 }
 
 .subnavbtn {
-    background-color: #3a84ef;
     display: inline-block;
 }
 
@@ -48,7 +75,7 @@
     margin: 0;
   }
 
-.navbar ul {
+.navbar-menu {
     margin: 0px;
     list-style-type: none;
 }
@@ -148,3 +175,47 @@
     background-size: 100% 100%;
 }
 
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Styles for mobile devices (e.g., phones) */
+@media (max-width: 480px) {
+    .navbar {
+        justify-content: center;
+        align-content: center;
+        display: block;
+        overflow-y: scroll;
+    }
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #3a84ef;
+        position: fixed;
+        height: 100vh;
+    }
+
+    .navbar-menu.show {
+        display: flex;
+    }
+
+    .navbar-menu a {
+        width: 90%;
+    }
+
+    .navbar-menu li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar-toggle {
+        display: block;
+        margin: 0 auto;
+    }
+}
