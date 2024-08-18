@@ -142,7 +142,11 @@ section {
 
 @media (max-width: 480px) {
 
-section p {
+section {
+    width: 75vw;
+}
+
+    section p {
     font-size: clamp(6px, 2vh, 60px);
 
 }
