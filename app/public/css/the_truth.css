@@ -193,17 +193,26 @@ section {
 @media (max-width: 480px) {
 
     .full {
-        width: 75vw;
+        max-width: 75vw;
     }
 
-    .centered-container {
-        width: 65vw;
+    cite {
+        min-width: 70vw;
+        max-width: 70vw;
+        font-size: clamp(3px, 1vh, 7px);
     }
 
     #top {
         padding-top: 15vh;
-        width: 75vw;
+        padding-left: 0;
+        min-width: 80vw;
+        max-width: 80vw;
         height: 125vh;
+    }
+
+    #top h2 {
+        min-width: 75vw;
+        max-width: 75vw;
     }
 
     .centered-container h3 {
@@ -213,16 +222,17 @@ section {
     .grey {
         /* background-color: rgb(95, 111, 125, .85); */
         background-color: rgb(72, 78, 82, .85);
-        width: 75vw;
+        width: 80vw;
     }
     
     .blue {
         background-color: rgb(23, 53, 80, .85);
-        width: 75vw;
+        width: 80vw;
     }
 
     section p {
         font-size: clamp(6px, 2vh, 60px);
+        width: 75vw;
     
     }
     
@@ -231,7 +241,7 @@ section {
     }
     
     .banded {
-        width: 75vw;
+        max-width: 75vw;
         font-size: clamp(24px, 3vh, 86px);
     }
     
@@ -249,26 +259,31 @@ section {
         text-align: center;
     }
     
+    .centered-container {
+        min-width: 75vw;
+        max-width: 75vw;
+    }
 
     .box {
         display: flex;
         align-items:center;
         justify-content: space-around;
         align-content: space-around;
-        width: 75vw;
+        max-width: 75vw;
+        min-width: 75vw;
         flex-wrap: wrap;
         max-height: 69vh;    
     }
     
     .box img {
-        min-width: 33vw;
-        max-width: 33vw;
-        max-height: 7vh;
-        min-height: 7vh;
+        min-width: 36vw;
+        max-width: 36vw;
+        max-height: 15vh;
+        min-height: 15vh;
     }
     
     .image-container {
-        max-width: 65vw;
+        max-width: 75vw;
         max-height: 33vh;
     }
     
