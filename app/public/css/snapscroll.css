@@ -1,6 +1,5 @@
 html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
 }
 
 section {
@@ -9,9 +8,3 @@ section {
     scroll-snap-align: start;
     scroll-padding: 400px;
 }
-
-.no-snap {
-    scroll-snap-align: none;
-    scroll-snap-type: none;
-}
-
