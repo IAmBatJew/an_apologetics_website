@@ -4,7 +4,8 @@ body, html {
     height: 100%;
     scroll-behavior: smooth;
   }
-  
+
+ 
 p {
     font-family: Garamond, 'Times New Roman', Times, serif;
     font-size: clamp(16px, 3vh, 48px);
@@ -15,7 +16,16 @@ h2 {
     font-size: clamp(28px, 4vh, 86px);
 }
 
+.body {
+    padding: 1.5vw;
+}
+
 .top {
-    height: 95vh;
+    /* height: 95vh; */
     padding-top: 27vh;
+}
+
+.citation {
+    font-size: clamp(10px, 1.5vh, 24px);
+    vertical-align: super;
 }
