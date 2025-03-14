@@ -6,10 +6,10 @@
 }
 
 .screenTop {
-    position:fixed;
+    position: fixed;
     background-color: #3a84ef;
-    width:100%;
-    justify-content:center;
+    width: 100%;
+    justify-content: center;
     z-index: 100;
 }
 
@@ -21,7 +21,7 @@
     height: 16vh;
 }
 
-#headerPic{
+#headerPic {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
@@ -38,7 +38,7 @@
     height: 12vh;
     display: flex;
     justify-content: space-between;
-    overflow:hidden;
+    overflow: hidden;
     width: 100vw;
 }
 
@@ -57,7 +57,7 @@
     justify-content: space-between;
 }
 
-.navbar-menu > div {
+.navbar-menu>div {
     width: 33.33vw;
     height: 12vh;
     position: relative;
@@ -68,7 +68,7 @@
     font-weight: normal;
 }
 
-.navbar-menu > div > a {
+.navbar-menu>div>a {
     display: block;
     width: 100%;
     height: 100%;
@@ -98,7 +98,7 @@
     text-decoration: none;
     -webkit-text-stroke: none;
     font-weight: normal;
-    font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 }
 
 .nav-item {
@@ -107,7 +107,7 @@
     height: 99%;
 }
 
-.cosmo:hover{
+.cosmo:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -116,7 +116,7 @@
     background-size: 100% 100%;
 }
 
-.cosmo a:hover{
+.cosmo a:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -125,12 +125,7 @@
     background-size: 100% 100%;
 }
 
-/* Remove the specific styling for .intdes a */
-.intdes a {
-    /* Remove this entire block */
-}
-
-.intdes a:hover{
+.intdes a:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -139,7 +134,7 @@
     background-size: 100% 100%;
 }
 
-.morallaw a:hover{
+.morallaw a:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -148,7 +143,7 @@
     background-size: 100% 100%;
 }
 
-.reliability a:hover{
+.reliability a:hover {
     font-weight: bold;
     font-size: 15px;
     color: black;
@@ -157,7 +152,7 @@
     background-size: 100% 100%;
 }
 
-.truth a:hover{
+.truth a:hover {
     font-weight: bold;
     font-size: 15px;
     color: black;
@@ -175,7 +170,7 @@
     background-image: url('./background_images/riselink.gif');
     background-size: 100% 100%;
 }
- 
+
 .evolution a:hover {
     font-weight: bold;
     font-size: 15px;
@@ -230,15 +225,7 @@
     background-image: none;
 }
 
-#evidence.active {
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-    -webkit-text-stroke: .35px black;
-    background-image: none;
-}
-
-#evidence > a {
+#evidence>a {
     float: top;
     color: white;
     font-size: medium;
@@ -251,7 +238,7 @@
     display: block;
 }
 
-#evidence > a:hover {
+#evidence>a:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -261,7 +248,8 @@
 }
 
 .evidence-dropdown.show {
-    display: flex; /* Changed from block to flex */
+    display: flex;
+    /* Changed from block to flex */
     justify-content: center;
 }
 
@@ -282,7 +270,7 @@
     vertical-align: middle;
 }
 
-#nt > a {
+#nt>a {
     float: top;
     color: white;
     font-size: medium;
@@ -295,7 +283,7 @@
     display: block;
 }
 
-#nt > a:hover {
+#nt>a:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -326,7 +314,7 @@
     vertical-align: middle;
 }
 
-#modern > a {
+#modern>a {
     float: top;
     color: white;
     font-size: medium;
@@ -339,13 +327,19 @@
     display: block;
 }
 
-#modern > a:hover {
+#modern>a:hover {
     font-weight: bold;
     font-size: 15px;
     color: white;
     -webkit-text-stroke: .35px black;
     background-image: url('./background_images/modern_background.jpg');
     background-size: 100% 100%;
+}
+
+.modern-dropdown.show {
+    display: flex;
+    /* Changed from block to flex */
+    justify-content: center;
 }
 
 /* Remove any conflicting background styles */
@@ -363,7 +357,7 @@
     justify-content: center;
 }
 
-.modern-dropdown > div {
+.modern-dropdown>div {
     width: 33.33vw;
     height: 100%;
     display: flex;
@@ -383,7 +377,7 @@
     width: 100vw;
     background-color: #3a84ef;
     z-index: 1001;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Common styles for all dropdown items */
@@ -416,180 +410,117 @@
 
 /* Styles for mobile devices (e.g., phones) */
 @media (max-width: 600px) {
-    .navbar {
-        justify-content: space-between;
-        align-content: center;
-        display: flex;
-        overflow: hidden; /* Hide any overflow */
-        height: auto; /* Allow height to adjust based on content */
-        overflow: hidden; /* Hide any overflowing content */        
-    }
-    .navbar-menu {
-        display: none;
-        flex-direction: column;
-        position: fixed; /* Ensure it stays fixed to the viewport */
-        top: 0; /* Position at the top */
-        left: 0; /* Align to the left */
-        width: 100vw; /* Full viewport width */
-        height: 80vh; /* Full viewport height */
-        top: 20vh;
-        background-color: #3a84ef;
-        z-index: 10000; /* High z-index to appear above other content */
-        overflow-y: auto; /* Allow scrolling if the content exceeds viewport height */
-        display: none;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-    
-    .navbar-menu.show {
-         opacity: 1;
-        display: flex; /* Show the menu when toggled */
-    }
-
-    .navbar-menu:not(.show) {
-        opacity: 0; /* Hide it when not visible */
-        display: none;
-    }
-
-    .navbar-menu a {
-        width: 100%; /* Full width of the menu */
-        height: 10vh; /* Adjust as needed for spacing */
-        display: block;
-        text-align: center;
-        line-height: 10vh; /* Center text vertically */
-    }
-    .navbar-menu li {
-        margin: 0;
-        text-align: center;
-        height: 10vh;
-    }
-
     .navbar-toggle {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        position: relative;
-        margin: 0 auto;
+        width: 100vw;
         height: 5vh;
     }
 
-    .navbar {
-        justify-content: space-between;
-        align-items: center;
-        height: 12vh;
-        padding: 0 15px;
-    }
-
-    .navbar-toggle {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 21px;
-        padding: 0;
-        border: 0;
-        background: transparent;
-        z-index: 10001;
-    }
-
     .navbar-toggle span {
-        width: 100%;
-        height: 3px;
-        background-color: white;
-        transition: all 0.3s ease;
-    }
-
-    .back-button {
-        display: none;
-        position: absolute;
-        left: 15px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: white;
-        border: none;
-        background: transparent;
-        font-size: 24px;
-        z-index: 10001;
-    }
-
-    .back-button.show {
         display: block;
+        width: 100%;
+        height: 2px;
+        background-color: white;
     }
 
     .navbar-menu {
         display: none;
         position: fixed;
-        top: 12vh;
+        top: 27vh;
+        /* Align with bottom of header */
         left: 0;
-        width: 100%;
-        height: calc(100vh - 12vh);
+        width: 100vw;
+        height: calc(100vh - 27vh);
+        /* Take up remaining viewport height */
         background-color: #3a84ef;
-        z-index: 10000;
+        z-index: 1001;
         flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
         padding: 20px 0;
+        opacity: 0;
+        transition: opacity 0.2s ease;
     }
 
     .navbar-menu.show {
         display: flex;
+        opacity: 1;
     }
 
-    .navbar-menu > div {
-        width: 100%;
-        height: auto;
+    .navbar-menu.hidden {
+        opacity: 0;
+        visibility: hidden;
+        display: flex !important;
+        pointer-events: none;
     }
 
-    .navbar-menu a {
-        padding: 15px 20px;
-        width: 100%;
-        height: auto;
-        line-height: normal;
-        text-align: left;
-    }
-
-    .evidence-dropdown,
-    .nt-dropdown,
-    .modern-dropdown {
-        display: none;
-        position: fixed;
-        top: 12vh;
-        left: 0;
-        width: 100%;
-        height: calc(100vh - 12vh);
-        background-color: #3a84ef;
-        z-index: 10001;
-        flex-direction: column;
-        padding: 20px 0;
-    }
-
-    .evidence-dropdown.show,
-    .nt-dropdown.show,
-    .modern-dropdown.show {
+    #evidence, #nt, #modern {
+        width: 100vw;
+        height: 33.33vh;
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .evidence-dropdown > div,
-    .nt-dropdown > div,
-    .modern-dropdown > div {
-        width: 100%;
-        height: auto;
+    #evidence > a, #nt > a, #modern > a {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
     }
 
-    /* Override hover behaviors for mobile */
+    /* Disable hover effects on mobile */
     #evidence:hover .evidence-dropdown,
     #nt:hover .nt-dropdown,
     #modern:hover .modern-dropdown {
         display: none;
     }
 
-    /* Reset hover styles for mobile */
-    .navbar-menu a:hover,
-    .evidence-dropdown a:hover,
-    .nt-dropdown a:hover,
-    .modern-dropdown a:hover {
-        background-image: none !important;
-        background-color: rgba(255, 255, 255, 0.1);
-        font-weight: normal;
-        font-size: medium;
-        -webkit-text-stroke: none;
+    .evidence-dropdown,
+    .nt-dropdown,
+    .modern-dropdown {
+        position: fixed;
+        top: 27vh;
+        left: 0;
+        width: 100vw;
+        height: calc(100vh - 27vh);
+        background-color: #3a84ef;
+        z-index: 1002;
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .evidence-dropdown.submenu-active,
+    .nt-dropdown.submenu-active,
+    .modern-dropdown.submenu-active {
+        display: flex;
+        opacity: 1;
+        z-index: 1002;
+    }
+
+    .evidence-dropdown > div,
+    .nt-dropdown > div,
+    .modern-dropdown > div {
+        width: 100vw;
+        height: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .back-button {
+        background-color: #3a84ef;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        z-index: 1003; /* Ensure it's above other elements */
     }
 }
