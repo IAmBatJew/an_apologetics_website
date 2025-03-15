@@ -148,7 +148,7 @@ cite {
     font-size: clamp(16px, 3vh, 36px);
     text-align: center;
     overflow-y: auto;
-    max-height: 35vh;
+    max-height: 40vh;
 }
 
 .interactions_image {
