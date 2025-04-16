@@ -50,15 +50,34 @@
     height: 7vh;
 }
 
+<<<<<<< Updated upstream
 .navbar-menu {
     margin: 0;
+=======
+/* Reset navbar menu width and padding */
+.navbar-menu {
+    margin: 0;
+    padding: 0;
+>>>>>>> Stashed changes
     width: 100vw;
     display: flex;
     justify-content: space-between;
 }
 
+<<<<<<< Updated upstream
 .navbar-menu>div {
     width: 33.33vw;
+=======
+/* Adjust nav item widths */
+.navbar-menu > div,
+.navbar-menu > div > a,
+#evidence, #nt, #modern,
+.nav-item {
+    width: 25vw;  /* Change from 33.33vw back to 25vw */
+}
+
+.navbar-menu>div {
+>>>>>>> Stashed changes
     height: 12vh;
     position: relative;
     color: white;
@@ -81,13 +100,20 @@
     -webkit-text-stroke: none;
     font-weight: normal;
     background-size: 100% 100%;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+>>>>>>> Stashed changes
     height: 12vh;
 }
 
 .navbar a {
     float: top;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+    width: 25vw;
+>>>>>>> Stashed changes
     height: auto;
     float: left;
     text-align: center;
@@ -102,7 +128,10 @@
 }
 
 .nav-item {
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+>>>>>>> Stashed changes
     float: left;
     height: 99%;
 }
@@ -210,7 +239,11 @@
 #evidence {
     cursor: pointer;
     position: relative;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+    width: 25vw;
+>>>>>>> Stashed changes
     height: 15vh;
     float: left;
     text-align: center;
@@ -260,7 +293,11 @@
 #nt {
     cursor: pointer;
     position: relative;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+    width: 25vw;
+>>>>>>> Stashed changes
     height: 15vh;
     float: left;
     text-align: center;
@@ -274,7 +311,11 @@
     float: top;
     color: white;
     font-size: medium;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+    width: 25vw;
+>>>>>>> Stashed changes
     height: 15vh;
     float: left;
     text-align: center;
@@ -304,7 +345,11 @@
 #modern {
     cursor: pointer;
     position: relative;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+    width: 25vw;
+>>>>>>> Stashed changes
     height: 15vh;
     float: left;
     text-align: center;
@@ -318,7 +363,11 @@
     float: top;
     color: white;
     font-size: medium;
+<<<<<<< Updated upstream
     width: 33.33vw;
+=======
+    width: 25vw;
+>>>>>>> Stashed changes
     height: 15vh;
     float: left;
     text-align: center;
@@ -431,7 +480,11 @@
         /* Align with bottom of header */
         left: 0;
         width: 100vw;
+<<<<<<< Updated upstream
         height: calc(100vh - 27vh);
+=======
+        height: 73vh;
+>>>>>>> Stashed changes
         /* Take up remaining viewport height */
         background-color: #3a84ef;
         z-index: 1001;
@@ -457,7 +510,11 @@
 
     #evidence, #nt, #modern {
         width: 100vw;
+<<<<<<< Updated upstream
         height: 33.33vh;
+=======
+        height: 33.33%;
+>>>>>>> Stashed changes
         display: flex;
         align-items: center;
         justify-content: center;

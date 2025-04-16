@@ -82,6 +82,11 @@
         top: 28vh;
         font-family: Garamond, 'Times New Roman', Times, serif;
         border: white 2px solid;
+<<<<<<< Updated upstream
+=======
+        background-color: none;
+        background: none;
+>>>>>>> Stashed changes
         padding: 12px;
     }
     
@@ -106,6 +111,22 @@
     }
     
 
+<<<<<<< Updated upstream
+=======
+    #whatis {
+        background: none;
+        font-size: clamp(16px, 2vh, 68px);
+    }
+
+    
+    .introduction{
+        background-image: url('background_images/homeheadbckrnd.jpg');
+        background-size: cover !important;
+        position: flex;
+        height: 100%;
+        top: 50%;
+    }
+>>>>>>> Stashed changes
 
     .introduction::before{
         content: "";
@@ -114,8 +135,13 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
+<<<<<<< Updated upstream
         background-color:black;
         opacity: .48;
+=======
+        background-color: black;
+        opacity: .6;
+>>>>>>> Stashed changes
         height: 100%;
     }
     
